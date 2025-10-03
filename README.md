@@ -1,11 +1,32 @@
-# Sample Snack app
+# 📚 Online Bookstore App
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+A mobile application built with **React Native** and **Firebase** that provides a simple and smooth way to browse, purchase, and manage books online.  
+Users enjoy a seamless shopping experience, while admins have powerful tools to manage books, users, and orders.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+---
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+## 🚀 Features
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+### User Features 🧑‍💻
+ Register/Login with **Firebase Authentication**
+- Browse books by title or author
+- View detailed book info (title, author, description, price)
+- Add to cart & wishlist
+- Secure checkout with order tracking
+- Address book for delivery
+- Order history & profile management
+- Dark mode (using `useContext`)
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+### 🛠️ Admin Features
+- Add, Edit, Delete books
+- Manage orders & update status
+- Track and update inventory
+- Manage user accounts & order history
+
+---
+
+## Tech Stack
+- **React Native** – UI & app development  
+- **Firebase** – Authentication, Firestore database, Storage  
+
+---
