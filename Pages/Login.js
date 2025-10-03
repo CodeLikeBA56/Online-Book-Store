@@ -16,7 +16,7 @@ export default function Login({ navigation }) {
     }
 
     try {
-      const response = await fetch("https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyCnU9GGERjQ8z-GlggCCclo2Br__9iAJmw", {
+      const response = await fetch("https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=", {
         method: 'POST',
         headers: {
           Accept: 'application/json',
