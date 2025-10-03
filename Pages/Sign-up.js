@@ -62,7 +62,7 @@ export default function SignUp({ navigation }) {
 
     setLoading(true);
 
-    fetch("https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyCnU9GGERjQ8z-GlggCCclo2Br__9iAJmw", {
+    fetch("https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=", {
       method: 'POST',
       headers: {
         Accept: 'application/json',
